@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
 </head>
 <body>
     <div id="site">
@@ -13,12 +15,23 @@
             </div>
             <br>
             <a href="#" class="eintrag"> home </a>
-            <a href="#impressum" class="eintrag"> impressum </a>
-            <a href="#" class="eintrag"> lol </a>
+            <a href="#impressum" class="eintrag" id="impressumlink"> impressum </a>
+            <a class="eintrag" id="serviceslink"> services </a>
         </div>
         <br class="void">
         <br class="void">
         <br class="void">
+        <div id="services">
+            <p>
+                Wir Bieten Lorem Ipsum an!
+                Fertiges und frisches Lorem
+                Ipsum nur hier und heute!
+            </p>
+        </div>
+        <div id="cookiebanner">
+            Wir benutzen cookies um alle leute auszubeuten und reich an Keksen zu werden! 🍪🍪🍪🍪🍪🍪 <br>
+            <button id="cookieaccept" onclick="AcceptCookies()">Accept</button>
+        </div>
         <div id="texte">
             <div class="text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
