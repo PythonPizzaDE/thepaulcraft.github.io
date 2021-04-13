@@ -16,7 +16,7 @@ body {
     font-family: Arial, monospace;
     text-decoration: none;
     color: lightgray;
-    padding: 1em 0.5em 0.5em;
+    margin: 1em 0.5em 0.5em;
 }
 
 .eintrag:hover {
