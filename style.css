@@ -1,0 +1,54 @@
+.logo {
+    font-family: Arial;
+    background-color: aqua;
+    border-radius: 5px;
+    font-size: 3em;
+    display: inline-flex;
+    margin-top: 1em;
+}
+
+.eintrag {
+    font-size: 2em;
+    font-family: Arial, monospace;
+    text-decoration: none;
+    color: lightgray;
+    padding: 1em 0.5em 0.5em;
+}
+
+.eintrag:hover {
+    color: lightblue;
+}
+
+.text {
+    font-family: Arial;
+    font-size: 1.2em;
+    background-color: #434343;
+    contain: content;
+    margin-top: 3em;
+    color: lightgray;
+    border-radius: 3px;
+    width: 100%;
+
+}
+
+#texte {
+    z-index: 2;
+    background-image: url("background.jpg");
+    padding-top: 5em;
+    width: 1920px;
+    height: 1080px;
+}
+
+.void {
+    height: 100cm;
+}
+
+#navbar {
+    background-color: #292929;
+    height: 15%;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    overflow: auto;
+    z-index: 1;
+}
