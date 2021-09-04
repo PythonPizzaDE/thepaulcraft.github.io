@@ -152,7 +152,7 @@ body nav ul li:hover {
 @media only screen and (max-width: 640px) {
   body nav ul li {
     max-width: 5rem;
-    padding: 0 1rem 0 1rem;
+    padding: 0;
     word-break: break-all;
   }
   body nav ul li a {
