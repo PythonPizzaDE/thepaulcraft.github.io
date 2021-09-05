@@ -96,3 +96,9 @@ body nav ul li:hover {
   box-shadow: 0.3rem 0.3rem 0.1rem #1b1b208a;
   border-radius: 4px;
 }
+
+@media only screen and (max-width: 600px) {
+  a {
+    font-size: 60%;
+  }
+}
